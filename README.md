@@ -79,7 +79,7 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 
 ```
 cat >/root/domain <<EOF
-iyanxdev.my.id
+sshws.hook.my.id
 EOF
 ```
 
@@ -88,7 +88,7 @@ EOF
 ```
 mkdir -p /etc/xray
 cat >/etc/xray/domain <<EOF
-iyanxdev.my.id
+sshws.hook.my.id
 EOF
 ```
 
